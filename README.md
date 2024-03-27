@@ -4,6 +4,6 @@ Esse é um projeto do site da Vinheria Agnelo!
 <p>• Fabricio Bettarello</p>
 <p>• Athos Rodrigues</p>
 <p>• Eric Yuji</p>
+<p>• Kaue Pires</p>
 <p>• Higor Batista</p>
 <p>• Daniel Vieira</p>
-<p></p>

@@ -1,8 +1,9 @@
 # VinheriaAgnelo
 Esse é um projeto do site da Vinheria Agnelo!
 ## Participantes
-• Fabricio Bettarello
-• Athos Rodrigues
-• Eric Yuji
-• Higor Batista
-• Daniel Vieira
+<p>• Fabricio Bettarello</p>
+<p>• Athos Rodrigues</p>
+<p>• Eric Yuji</p>
+<p>• Higor Batista</p>
+<p>• Daniel Vieira</p>
+<p></p>

@@ -8,5 +8,5 @@ Esse é um projeto do site da Vinheria Agnelo!
 <p>• Higor Batista</p>
 <p>• Daniel Vieira</p>
 <h3>O que usamos:</h3>
-<p>- HTML</p>
-<p>- CSS</p>
+<p>- HTML 68.0%</p>
+<p>- CSS 32.0%</p>

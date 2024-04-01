@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #631e48;
+    background-color: #91E1AC;
     color: #fff;
     padding: 30px;
-     font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
     line-height: 1.0; 
 }
 
 header h1 {
     margin: 10;
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
     line-height: 1.0; 
    
@@ -38,7 +44,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
     line-height: 1.0; 
    
@@ -56,18 +64,22 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
 }
 
 p {
     margin-bottom: 20px;
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
 }
 
 footer {
-    background-color: #631e48;
+    background-color: #567D63;
     color: #fff;
     padding: 10px 40px;
     position: fixed;
@@ -75,7 +87,9 @@ footer {
     width: 100%;
     text-align: center;
     padding: 30px;
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
     line-height: 1.0; 
    
@@ -84,7 +98,9 @@ footer {
 
 .welcome-text {
     font-size: 20px; 
-    font-family: 'Futura', sans-serif; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-style: italic;
     line-height: 1.0; 
     color: #333; 
@@ -129,12 +145,12 @@ footer {
 }
 
 .input-slide:checked + .label-slide{
-  background-color: #007cff;
+  background-color: #460060;
 }
 
 
 .input-slide:focus + .label-slide{
-  box-shadow: 0 0 0 2px teal, 0 0 18px #ffffff;
+  box-shadow: 0 0 0 2px #6F477B, 0 0 18px #ffffff;
 }
 
 .slide {

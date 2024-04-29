@@ -1,0 +1,138 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(230, 230, 230);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/background.jpg);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px 45px;
+    background-color: rgba(22, 22, 22, 0.952);
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 30px;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 2.0rem;
+
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: rgb(56, 175, 255);
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+.sim {
+    width: 150px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #567D63;
+    color: #567D63;
+    transition: all 0.2s;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sim:hover {
+    background-color: #567D63;
+    border: 2px solid #567D63;
+    color: #ffffff;
+}
+
+.nao {
+    width: 150px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #6F477B;
+    color: #6F477B;
+    transition: all 0.2s;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nao:hover {
+    background-color: #6F477B;
+    border: 2px solid #6F477B;
+    color: #ffffff;
+}
+
+@media (max-width:800px) {
+
+    section {
+        width: 250px;
+        box-shadow: none;
+    }
+
+    section img {
+        width: 170px;
+        height: auto;
+        margin-bottom: 2.0rem;
+    
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}

@@ -6,7 +6,6 @@ Esse é um projeto do site da Vinheria Agnelo!
 <p>• Eric Yuji</p>
 <p>• Kaue Pires</p>
 <p>• Higor Batista</p>
-<p>• Daniel Vieira</p>
 <h3>O que usamos:</h3>
 <p>- HTML 68.0%</p>
 <p>- CSS 32.0%</p>

@@ -196,6 +196,10 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.vinho {
+    display: flex;
+    justify-content: space-between;
+}
 
 .garrafa {
     max-width: 300px;
@@ -218,6 +222,25 @@ footer {
 }
 
 .comprar:hover {
+    color: #567D63;
+    background-color: #d1d1d1;
+}
+
+.comprar1 {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #567D63;
+    transition: all 0.3s;
+    
+}
+.pratos{
+    margin-top: 30px;
+}
+
+.comprar1:hover {
     color: #567D63;
     background-color: #d1d1d1;
 }

@@ -26,11 +26,10 @@ function atualizarTotal() {
 
 function aplicarDesconto() {
     const cupomInput = document.getElementById("cupomDesconto").value;
-    const cupomValido = "FIAP2024"; // Cupom válido
+    const cupomValido = "FIAP2024"; 
     
     if (cupomInput === cupomValido) {
-        // Aplica o desconto de 10%
-        total *= 0.9; // Equivalente a multiplicar por 0.9, ou seja, 10% de desconto
+        total *= 0.9; 
         alert("Cupom aplicado! 10% de desconto concedido.");
         atualizarTotal();
     } else {
@@ -40,5 +39,5 @@ function aplicarDesconto() {
 
 function atualizarTotal() {
     const totalElement = document.getElementById("total");
-    totalElement.textContent = `Total: $${total.toFixed(2)}`; // Arredonda para 2 casas decimais
+    totalElement.textContent = `Total: $${total.toFixed(2)}`;
 }

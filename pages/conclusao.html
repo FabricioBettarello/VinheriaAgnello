@@ -9,26 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>Vinheria Agnello</h1>
-        <nav>
-            <ul>
-                <li><a href="./home.html">Início</a></li>
-                <li><a href="./vinhos.html">Vinhos</a></li>
-                <li><a href="./contato.html">Contato</a></li>
-                <li><a href="./quemsomos.html">Quem somos</a></li>
-            </ul>
-        </nav>
-        <div class="login">
+        <div class="inline">
+            <div class="animacao-vinho">🍷</div>
+            <h1 class="transition">Vinheria Agnello</h1>
+            <div class="animacao-vinho">🍷</div>
+        </div>
             <nav>
                 <ul>
-                    <li><a href="./conclusao.html">Login</a></li>
-                
+                    <li><a class="transition" href="home.html">Início</a></li>
+                    <li><a class="transition" href="vinhos.html">Vinhos</a></li>
+                    <li><a class="transition" href="contato.html">Contato</a></li>
+                    <li><a class="transition" href="quemsomos.html">Quem somos</a></li>
+                        <li class="login, transition"><a href="conclusao.html">Login</a></li>
                 </ul>
-    </header>
+            </nav>
+        </header>
 
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <main>
     <div class="page">
         <form method="POST" class="formLogin">
             <h1>Login</h1>
@@ -42,6 +39,7 @@
             <button class="comprar" onclick="checkLogin()">Entrar</button>
         </form>
     </div>
+</main>
 
     <footer>
         <h2>&copy; 2024 Vinheria Agnello</h2>

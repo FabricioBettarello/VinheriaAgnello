@@ -52,7 +52,9 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 50px;
 }
 
 section {
@@ -134,8 +136,7 @@ footer {
     font-style: normal;
     font-style: italic;
     line-height: 1.0; 
-    color: #333; 
-    
+    margin-right: 5%;
 }
 
 .slide-css { width: 100%; float: left; position: sticky; overflow: hidden; }
@@ -194,8 +195,7 @@ footer {
     display: flex;
     flex-direction: center;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+
 }
 
 .vinhos1 {
@@ -232,6 +232,7 @@ footer {
     border-radius: 10px;
     background-color: #567D63;
     transition: all 0.3s;
+    border-style: none;
 }
 
 .comprar:hover {
@@ -403,7 +404,9 @@ footer {
     }
 }
 .container {
+    display: flex;
     text-align: center;
+    align-items: center;
   }
   
   .container img {
@@ -485,4 +488,26 @@ nav ul li a {
     100% {
         transform: translateY(-10px);
     }
+}
+
+/* pseudo elementos na seleçao de textos */
+::selection {
+    background-color: rgba(247, 0, 255, 0.356);
+    color: black;
+}
+
+.img {
+
+    width: 25rem;
+    
+}
+
+.pb{
+    padding-bottom: 4%;
+}
+
+.vertical {
+    display: flex;
+
+    padding: 20px 50px 20px 50px;
 }
